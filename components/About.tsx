@@ -24,7 +24,7 @@ const About = () => {
         <div className="flex flex-col items-center gap-4 md:border-l md:border-r border-plum/10 px-4">
           <CheckCircle className="text-plum w-8 h-8" strokeWidth={1.5} />
           <div>
-            <span className="block text-5xl font-serif text-plum mb-2">12+</span>
+            <span className="block text-5xl font-serif text-plum mb-2">7+</span>
             <span className="text-plum/80 font-medium">Years of Expertise</span>
           </div>
         </div>

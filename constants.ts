@@ -6,14 +6,14 @@ export const SERVICES_DATA: ServiceCategory[] = [
     icon: "sparkles",
     count: 8,
     items: [
-      { name: "Classic Manicure", price: "GH₵25", image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=200&auto=format&fit=crop" },
-      { name: "French Manicure", price: "GH₵35", image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=200&auto=format&fit=crop" },
-      { name: "Russian Manicure", price: "GH₵65", image: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?q=80&w=200&auto=format&fit=crop" },
-      { name: "Spa Manicure", price: "GH₵50", image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=200&auto=format&fit=crop" },
-      { name: "Express Manicure", price: "GH₵20", image: "https://images.unsplash.com/photo-1599693390740-9e67c2937861?q=80&w=200&auto=format&fit=crop" },
-      { name: "Non-Toxic Manicure", price: "GH₵35", image: "https://images.unsplash.com/photo-1600063935824-00624898144b?q=80&w=200&auto=format&fit=crop" },
-      { name: "Natural Manicure", price: "GH₵30", image: "https://images.unsplash.com/photo-1596462502278-27bfdd403cc2?q=80&w=200&auto=format&fit=crop" },
-      { name: "Deluxe Manicure", price: "GH₵75", image: "https://images.unsplash.com/photo-1542452377-76eb949980d4?q=80&w=200&auto=format&fit=crop" },
+      { name: "Classic Manicure", price: "GH₵25", image: "/image-6.jfif" },
+      { name: "French Manicure", price: "GH₵35", image: "/image-2.jfif" },
+      { name: "Russian Manicure", price: "GH₵65", image: "/image-3.jfif" },
+      { name: "Spa Manicure", price: "GH₵50", image: "/image-4.jfif" },
+      { name: "Express Manicure", price: "GH₵20", image: "/image-5.jfif" },
+      { name: "Non-Toxic Manicure", price: "GH₵35", image: "/image-6.jfif" },
+      { name: "Natural Manicure", price: "GH₵30", image: "/image-7.jfif" },
+      { name: "Deluxe Manicure", price: "GH₵75", image: "/image-4.jfif" },
     ]
   },
   {
@@ -21,10 +21,10 @@ export const SERVICES_DATA: ServiceCategory[] = [
     icon: "sun",
     count: 4,
     items: [
-      { name: "Classic Pedicure", price: "GH₵35", image: "https://images.unsplash.com/photo-1519415387722-a1c3ebb7ee59?q=80&w=200&auto=format&fit=crop" },
-      { name: "Silk Soles", price: "GH₵60", image: "https://images.unsplash.com/photo-1600063935824-00624898144b?q=80&w=200&auto=format&fit=crop" },
-      { name: "Spa Pedicure", price: "GH₵70", image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=200&auto=format&fit=crop" },
-      { name: "Deluxe Pedicure", price: "GH₵80", image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=200&auto=format&fit=crop" },
+      { name: "Classic Pedicure", price: "GH₵35", image: "/image-6.jfif" },
+      { name: "Silk Soles", price: "GH₵60", image: "/image-2.jfif" },
+      { name: "Spa Pedicure", price: "GH₵70", image: "/image-3.jfif" },
+      { name: "Deluxe Pedicure", price: "GH₵80", image: "/image-4.jfif" },
     ]
   },
   {
@@ -32,46 +32,46 @@ export const SERVICES_DATA: ServiceCategory[] = [
     icon: "circle",
     count: 6,
     items: [
-      { name: "Gel Manicure", price: "GH₵40", image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=200&auto=format&fit=crop" },
-      { name: "Gel Overlay", price: "GH₵55", image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=200&auto=format&fit=crop" },
-      { name: "Gel Pedicure", price: "GH₵55", image: "https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?q=80&w=200&auto=format&fit=crop" },
-      { name: "BIAB / Builder Gel", price: "GH₵75", image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=200&auto=format&fit=crop" },
-      { name: "Gel Extensions", price: "GH₵85", image: "https://images.unsplash.com/photo-1599693390740-9e67c2937861?q=80&w=200&auto=format&fit=crop" },
-      { name: "Gel Nail Art Add-On", price: "GH₵15", image: "https://images.unsplash.com/photo-1542452377-76eb949980d4?q=80&w=200&auto=format&fit=crop" },
+      { name: "Gel Manicure", price: "GH₵40", image: "/image-6.jfif" },
+      { name: "Gel Overlay", price: "GH₵55", image: "/image-2.jfif" },
+      { name: "Gel Pedicure", price: "GH₵55", image: "/image-3.jfif" },
+      { name: "BIAB / Builder Gel", price: "GH₵75", image: "/image-4.jfif" },
+      { name: "Gel Extensions", price: "GH₵85", image: "/image-5.jfif" },
+      { name: "Gel Nail Art Add-On", price: "GH₵15", image: "/image-4.jfif" },
     ]
   }
 ];
 
 export const TEAM_DATA: TeamMember[] = [
   {
-    name: "Lina Markovic",
+    name: "Boatemaa Bodycia",
     role: "Founder & Artist",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop"
+    image: "/image-1.jfif"
   },
   {
-    name: "Amira Clark",
-    role: "Visit Instagram", 
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop"
+    name: "Adjoa Mensah",
+    role: " Nail Technician", 
+    image: "/image-1.jfif"
   },
   {
-    name: "Sofia Davis",
-    role: "Gel & BIAB Expert",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=format&fit=crop"
+    name: "Akosua Serwaa",
+    role: "Nail Technician",
+    image: "/image-1.jfif"
   }
 ];
 
 export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     text: "My gel pedicure lasted really beautifully. The quiet, calming space made it feel like more than just a service, truly.",
-    author: "Taylor M."
+    author: "Serwaa M."
   },
   {
     text: "It's rare to find a salon that feels this calm – and leaves your nails looking this good.",
-    author: "Jasmine L."
+    author: "Jasmine Aboagye"
   },
   {
     text: "Brought an idea, left with something even better. The detail and care are perfect.",
-    author: "Maya S."
+    author: "Alice Kwaku"
   },
   {
     text: "From natural sets to bold, custom nail art, they just get it. Bodycia's makes me feel seen, styled, and completely at ease.",

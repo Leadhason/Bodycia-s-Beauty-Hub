@@ -14,7 +14,10 @@ const FAQ = () => {
             Everything you <br />
             <span className="italic font-light text-mauve">might wonder</span>
           </h2>
-          <button className="bg-plum/10 hover:bg-plum/20 text-plum px-8 py-3 rounded-full flex items-center gap-2 group transition-colors">
+          <button 
+            onClick={() => window.open('https://calendly.com/bodycias-beauty', '_blank')}
+            className="bg-plum/10 hover:bg-plum/20 text-plum px-8 py-3 rounded-full flex items-center gap-2 group transition-colors"
+          >
             Book Now <span className="w-6 h-6 rounded-full bg-plum text-cream flex items-center justify-center text-xs group-hover:translate-x-1 transition-transform">&gt;</span>
           </button>
         </div>

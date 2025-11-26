@@ -21,8 +21,8 @@ const App = () => {
       <main>
         <Hero />
         <About />
-        <Services />
         <Offer />
+        <Services />
         <Team />
         <Philosophy />
         <Testimonials />

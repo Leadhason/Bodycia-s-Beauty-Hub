@@ -25,7 +25,10 @@ const Services = () => {
               <p className="text-plum/70 max-w-sm mb-6">
                 Style that fits your schedule, your energy, and your aesthetic.
               </p>
-              <button className="bg-plum/5 hover:bg-plum/10 text-plum px-8 py-3 rounded-full text-sm font-medium transition-colors">
+              <button 
+                onClick={() => window.open('https://calendly.com/bodycias-beauty', '_blank')}
+                className="bg-plum/5 hover:bg-plum/10 text-plum px-8 py-3 rounded-full text-sm font-medium transition-colors"
+              >
                 Book Now
               </button>
            </div>

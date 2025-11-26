@@ -24,7 +24,10 @@ const Offer = () => {
           <p className="text-white/90 mb-8 font-light">
             Treat yourself to 15% off your next appointment when you book a deluxe service.
           </p>
-          <button className="bg-cream text-plum px-8 py-3 rounded-full text-sm font-medium hover:bg-white transition-colors inline-flex items-center gap-2 group">
+          <button 
+            onClick={() => window.open('https://calendly.com/bodycias-beauty', '_blank')}
+            className="bg-cream text-plum px-8 py-3 rounded-full text-sm font-medium hover:bg-white transition-colors inline-flex items-center gap-2 group"
+          >
              Book Now 
              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform"/>
           </button>

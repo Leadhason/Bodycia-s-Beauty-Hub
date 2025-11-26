@@ -21,7 +21,20 @@ const Contact = () => {
       </div>
 
       <div className="max-w-4xl mx-auto bg-white rounded-[3rem] p-8 md:p-16 shadow-xl shadow-plum/5 border border-plum/5">
-        <form className="space-y-8">
+        <form 
+          className="space-y-8"
+          onSubmit={(e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target as HTMLFormElement);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const inquiry = formData.get('inquiry');
+            const message = formData.get('message');
+            const subject = `${inquiry} from ${name}`;
+            const body = `Name: ${name}\nEmail: ${email}\nInquiry Type: ${inquiry}\n\nMessage:\n${message}`;
+            window.location.href = `mailto:hello@bodycias.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+          }}
+        >
            <div>
              <h3 className="font-serif text-3xl text-plum mb-8">Get in touch</h3>
            </div>
@@ -29,18 +42,18 @@ const Contact = () => {
            <div className="space-y-6">
              <div className="space-y-2">
                <label className="text-sm font-medium text-mauve/80 uppercase tracking-wide">Full Name</label>
-               <input type="text" placeholder="Enter your name" className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all" />
+               <input name="name" type="text" placeholder="Enter your name" required className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all" />
              </div>
 
              <div className="space-y-2">
                <label className="text-sm font-medium text-mauve/80 uppercase tracking-wide">Email</label>
-               <input type="email" placeholder="Enter your email" className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all" />
+               <input name="email" type="email" placeholder="Enter your email" required className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all" />
              </div>
 
              <div className="space-y-2">
                <label className="text-sm font-medium text-mauve/80 uppercase tracking-wide">Inquiry Type</label>
                <div className="relative">
-                 <select className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum appearance-none focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all cursor-pointer">
+                 <select name="inquiry" className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum appearance-none focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all cursor-pointer">
                    <option>Booking Request</option>
                    <option>General Inquiry</option>
                    <option>Feedback</option>
@@ -53,18 +66,18 @@ const Contact = () => {
 
              <div className="space-y-2">
                <label className="text-sm font-medium text-mauve/80 uppercase tracking-wide">Message</label>
-               <textarea rows={4} placeholder="How can we help?" className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all resize-none"></textarea>
+               <textarea name="message" rows={4} placeholder="How can we help?" required className="w-full bg-cream border border-plum/10 rounded-xl p-4 text-plum placeholder:text-plum/30 focus:border-mauve focus:ring-1 focus:ring-mauve outline-none transition-all resize-none"></textarea>
              </div>
            </div>
 
-           <button className="w-full bg-mauve text-white font-medium py-4 rounded-xl hover:bg-plum transition-colors shadow-lg shadow-mauve/20">
+           <button type="submit" className="w-full bg-mauve text-white font-medium py-4 rounded-xl hover:bg-plum transition-colors shadow-lg shadow-mauve/20">
              Send Message
            </button>
         </form>
       </div>
 
       <div className="max-w-5xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4">
+        <a href="tel:+12125550198" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <Phone size={20} />
           </div>
@@ -72,9 +85,9 @@ const Contact = () => {
             <h4 className="font-serif text-xl text-plum">Call Us</h4>
             <p className="text-plum/60 text-sm">Let's talk nails</p>
           </div>
-        </div>
+        </a>
 
-        <div className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4">
+        <a href="https://maps.google.com/?q=301+Milam+St+Houston" target="_blank" rel="noopener noreferrer" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <MapPin size={20} />
           </div>
@@ -82,9 +95,9 @@ const Contact = () => {
             <h4 className="font-serif text-xl text-plum">Find Us</h4>
             <p className="text-plum/60 text-sm">See you here</p>
           </div>
-        </div>
+        </a>
 
-        <div className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4">
+        <a href="mailto:hello@bodycias.com" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <Mail size={20} />
           </div>
@@ -92,7 +105,7 @@ const Contact = () => {
             <h4 className="font-serif text-xl text-plum">Email Us</h4>
             <p className="text-plum/60 text-sm">hello@bodycias.com</p>
           </div>
-        </div>
+        </a>
       </div>
 
     </section>

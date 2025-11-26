@@ -21,7 +21,7 @@ const Footer = () => {
                   <Phone size={16} /> + 1 (212) 555-0198
                 </a>
                 <span className="flex items-center gap-3 text-white/80">
-                  <MapPin size={16} /> 301 Milam St, Houston
+                  <MapPin size={16} /> Pinanko Rd, Kumasi
                 </span>
                 <a href="#" className="flex items-center gap-3 hover:text-mauve transition-colors">
                   <Mail size={16} /> hello@bodycias.com
@@ -54,13 +54,21 @@ const Footer = () => {
           <div>
             <h5 className="text-white/40 text-xs uppercase tracking-widest mb-6">Follow Us</h5>
             <ul className="space-y-4">
-              {['Facebook', 'Instagram', 'Pinterest'].map(item => (
-                <li key={item}>
-                  <a href="#" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="https://facebook.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://pinterest.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                  Pinterest
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -68,8 +76,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 text-white/40 text-sm">
           <span>© 2025, Bodycia's Beauty Hub</span>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white">Licenses</a>
-            <a href="#" className="hover:text-white">Powered by Webflow</a>
+            <a href="/licenses" className="hover:text-white">Licenses</a>
+            <a href="https://leadhason.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">Developed by Leadhason</a>
           </div>
         </div>
       </div>
