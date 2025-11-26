@@ -77,7 +77,7 @@ const Contact = () => {
       </div>
 
       <div className="max-w-5xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <a href="tel:+12125550198" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
+        <a href="tel:+233552527502" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <Phone size={20} />
           </div>
@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
         </a>
 
-        <a href="https://maps.google.com/?q=301+Milam+St+Houston" target="_blank" rel="noopener noreferrer" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
+        <a href="https://maps.google.com/?q=Pinanko+Rd+Kumasi+Ghana" target="_blank" rel="noopener noreferrer" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <MapPin size={20} />
           </div>

@@ -62,9 +62,9 @@ const Navigation = () => {
           {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-4">
             <div className="hidden md:flex gap-3">
-               <button className="w-10 h-10 rounded-full bg-plum/5 flex items-center justify-center text-plum hover:bg-plum hover:text-cream transition-colors">
+               <a href="tel:+233552527502" className="w-10 h-10 rounded-full bg-plum/5 flex items-center justify-center text-plum hover:bg-plum hover:text-cream transition-colors">
                   <Phone size={16} />
-               </button>
+               </a>
                <button 
                  onClick={() => window.open('https://calendly.com/bodycias-beauty', '_blank')}
                  className="bg-plum/5 hover:bg-plum/10 text-plum px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
@@ -138,14 +138,14 @@ const Navigation = () => {
 
         {/* Footer Info */}
         <div className="p-8 border-t border-plum/10 bg-plum/5 space-y-6">
-          <a href="tel:+12125550198" className="flex items-center justify-center gap-3 text-plum hover:text-mauve transition-colors">
+          <a href="tel:+233552527502" className="flex items-center justify-center gap-3 text-plum hover:text-mauve transition-colors">
             <Phone size={18} />
-            <span className="font-medium text-lg">+ 1 (212) 555–0198</span>
+            <span className="font-medium text-lg">+233 55 252 7502</span>
           </a>
           
           <div className="flex items-center justify-center gap-3 text-plum">
             <MapPin size={18} />
-            <span className="font-medium text-lg">301 Milam St, Houston</span>
+            <span className="font-medium text-lg">Pinanko Rd, Kumasi</span>
           </div>
         </div>
       </div>

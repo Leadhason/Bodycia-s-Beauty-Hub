@@ -17,13 +17,13 @@ const Footer = () => {
                A studio built around calm service, clean products, and good nails.
              </p>
              <div className="space-y-3 text-sm">
-                <a href="#" className="flex items-center gap-3 hover:text-mauve transition-colors">
-                  <Phone size={16} /> + 1 (212) 555-0198
+                <a href="tel:+233552527502" className="flex items-center gap-3 hover:text-mauve transition-colors">
+                  <Phone size={16} /> +233 55 252 7502
                 </a>
                 <span className="flex items-center gap-3 text-white/80">
                   <MapPin size={16} /> Pinanko Rd, Kumasi
                 </span>
-                <a href="#" className="flex items-center gap-3 hover:text-mauve transition-colors">
+                <a href="mailto:hello@bodycias.com" className="flex items-center gap-3 hover:text-mauve transition-colors">
                   <Mail size={16} /> hello@bodycias.com
                 </a>
              </div>

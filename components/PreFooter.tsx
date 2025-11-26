@@ -29,13 +29,13 @@ const PreFooter = () => {
          {/* Image Circles - Decorative */}
          <div className="mt-20 flex justify-center items-end gap-4 md:gap-8 opacity-80">
             <div className="w-40 h-64 md:w-64 md:h-96 rounded-t-full overflow-hidden translate-y-10">
-               <img src="/image-6.jfif" className="w-full h-full object-cover" alt="Nails" />
+               <img src="/image-6.jpg" className="w-full h-full object-cover" alt="Nails" />
             </div>
             <div className="w-48 h-56 md:w-72 md:h-80 rounded-t-full overflow-hidden">
-               <img src="/image-4.jfif" className="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Texture" />
+               <img src="/image-4.jpg" className="w-full h-full object-cover opacity-80 mix-blend-overlay" alt="Texture" />
             </div>
             <div className="w-40 h-64 md:w-64 md:h-96 rounded-t-full overflow-hidden translate-y-10">
-               <img src="/image-5.jfif" className="w-full h-full object-cover" alt="Nails" />
+               <img src="/image-5.jpg" className="w-full h-full object-cover" alt="Nails" />
             </div>
          </div>
       </div>
