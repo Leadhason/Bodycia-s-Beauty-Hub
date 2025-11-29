@@ -11,20 +11,20 @@ const Footer = () => {
           <div className="md:col-span-1">
              <div className="flex items-center gap-2 mb-6">
                 <div className="w-5 h-5 rounded-full border-2 border-cream"></div>
-                <span className="font-serif text-2xl font-medium tracking-tight">Bodycia's</span>
+                <span className="font-serif text-2xl font-medium tracking-tight">Pinklime</span>
              </div>
              <p className="text-white/60 mb-8 leading-relaxed max-w-xs">
                A studio built around calm service, clean products, and good nails.
              </p>
              <div className="space-y-3 text-sm">
-                <a href="tel:+233552527502" className="flex items-center gap-3 hover:text-mauve transition-colors">
-                  <Phone size={16} /> +233 55 252 7502
+                <a href="tel:+233502521811" className="flex items-center gap-3 hover:text-mauve transition-colors">
+                  <Phone size={16} /> +233 50 252 1811
                 </a>
                 <span className="flex items-center gap-3 text-white/80">
-                  <MapPin size={16} /> Pinanko Rd, Kumasi
+                  <MapPin size={16} /> JR85+X53, Osu Badu Ave, Accra
                 </span>
-                <a href="mailto:hello@bodycias.com" className="flex items-center gap-3 hover:text-mauve transition-colors">
-                  <Mail size={16} /> hello@bodycias.com
+                <a href="mailto:hello@pinklime.com" className="flex items-center gap-3 hover:text-mauve transition-colors">
+                  <Mail size={16} /> hello@pinklime.com
                 </a>
              </div>
              <div className="mt-8 pt-8 border-t border-white/10">
@@ -55,17 +55,17 @@ const Footer = () => {
             <h5 className="text-white/40 text-xs uppercase tracking-widest mb-6">Follow Us</h5>
             <ul className="space-y-4">
               <li>
-                <a href="https://facebook.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                <a href="https://facebook.com/pinklimenails" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                <a href="https://instagram.com/pinklimenails" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
                   Instagram
                 </a>
               </li>
               <li>
-                <a href="https://pinterest.com/bodyciasbeauty" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
+                <a href="https://pinterest.com/pinklimenails" target="_blank" rel="noopener noreferrer" className="font-serif text-3xl md:text-4xl text-cream hover:text-mauve hover:italic transition-all">
                   Pinterest
                 </a>
               </li>
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10 text-white/40 text-sm">
-          <span>© 2025, Bodycia's Beauty Hub</span>
+          <span>© 2025, Pinklime Nail Spa</span>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="/licenses" className="hover:text-white">Licenses</a>
             <a href="https://leadhason.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white">Developed by Leadhason</a>

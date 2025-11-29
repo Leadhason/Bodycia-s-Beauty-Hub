@@ -44,7 +44,7 @@ export const SERVICES_DATA: ServiceCategory[] = [
 
 export const TEAM_DATA: TeamMember[] = [
   {
-    name: "Boatemaa Bodycia",
+    name: "Boatemaa Pinklime",
     role: "Founder & Artist",
     image: "/image-1.jfif"
   },
@@ -74,7 +74,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     author: "Alice Kwaku"
   },
   {
-    text: "From natural sets to bold, custom nail art, they just get it. Bodycia's makes me feel seen, styled, and completely at ease.",
+    text: "From natural sets to bold, custom nail art, they just get it. Pinklime makes me feel seen, styled, and completely at ease.",
     author: "Rachel T."
   }
 ];

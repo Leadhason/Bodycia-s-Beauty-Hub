@@ -32,7 +32,7 @@ const Contact = () => {
             const message = formData.get('message');
             const subject = `${inquiry} from ${name}`;
             const body = `Name: ${name}\nEmail: ${email}\nInquiry Type: ${inquiry}\n\nMessage:\n${message}`;
-            window.location.href = `mailto:hello@bodycias.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = `mailto:hello@pinklime.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
           }}
         >
            <div>
@@ -77,7 +77,7 @@ const Contact = () => {
       </div>
 
       <div className="max-w-5xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <a href="tel:+233552527502" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
+        <a href="tel:+233502521811" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <Phone size={20} />
           </div>
@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
         </a>
 
-        <a href="https://maps.google.com/?q=Pinanko+Rd+Kumasi+Ghana" target="_blank" rel="noopener noreferrer" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
+        <a href="https://maps.google.com/?q=JR85+X53+Osu+Badu+Ave+Accra+Ghana" target="_blank" rel="noopener noreferrer" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <MapPin size={20} />
           </div>
@@ -97,13 +97,13 @@ const Contact = () => {
           </div>
         </a>
 
-        <a href="mailto:hello@bodycias.com" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
+        <a href="mailto:hello@pinklime.com" className="bg-white/60 p-8 rounded-3xl border border-plum/5 flex items-center gap-4 hover:bg-white/80 transition-colors cursor-pointer">
           <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center text-mauve border border-plum/5 shrink-0">
             <Mail size={20} />
           </div>
           <div>
             <h4 className="font-serif text-xl text-plum">Email Us</h4>
-            <p className="text-plum/60 text-sm">hello@bodycias.com</p>
+            <p className="text-plum/60 text-sm">hello@pinklime.com</p>
           </div>
         </a>
       </div>

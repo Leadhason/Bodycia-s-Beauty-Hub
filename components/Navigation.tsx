@@ -25,11 +25,11 @@ const Navigation = () => {
       <div className="bg-plum-light/10 text-plum text-xs py-2 px-4 md:px-8 flex justify-between items-center font-medium border-b border-plum/5">
         <span>Mon – Fri: 10AM – 6PM</span>
         <div className="flex gap-6 hidden md:flex">
-          <a href="tel:+233552527502" className="hover:text-mauve transition-colors flex items-center gap-1">
-            <Phone size={12} /> +233 55 252 7502
+          <a href="tel:+233502521811" className="hover:text-mauve transition-colors flex items-center gap-1">
+            <Phone size={12} /> +233 50 252 1811
           </a>
           <span className="flex items-center gap-1">
-            <MapPin size={12} /> Pinanko Rd, Kumasi
+            <MapPin size={12} /> JR85+X53, Osu Badu Ave, Accra
           </span>
         </div>
       </div>
@@ -43,7 +43,7 @@ const Navigation = () => {
                 <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z" fill="currentColor" fillOpacity="0.2"/>
                 <path d="M15 12C15 14.7614 12.7614 17 10 17C7.23858 17 5 14.7614 5 12C5 9.23858 7.23858 7 10 7C12.7614 7 15 9.23858 15 12Z" fill="currentColor"/>
              </svg>
-            <span className="font-serif text-2xl font-medium tracking-tight text-plum">Bodycia's Beauty Hub</span>
+            <span className="font-serif text-2xl font-medium tracking-tight text-plum">Pinklime Nail Spa</span>
           </a>
 
           {/* Desktop Links - Centered */}
@@ -62,11 +62,11 @@ const Navigation = () => {
           {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-4">
             <div className="hidden md:flex gap-3">
-               <a href="tel:+233552527502" className="w-10 h-10 rounded-full bg-plum/5 flex items-center justify-center text-plum hover:bg-plum hover:text-cream transition-colors">
+               <a href="tel:+233502521811" className="w-10 h-10 rounded-full bg-plum/5 flex items-center justify-center text-plum hover:bg-plum hover:text-cream transition-colors">
                   <Phone size={16} />
                </a>
                <button 
-                 onClick={() => window.open('https://calendly.com/bodycias-beauty', '_blank')}
+                 onClick={() => window.open('https://calendly.com/pinklime-nails', '_blank')}
                  className="bg-plum/5 hover:bg-plum/10 text-plum px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
                >
                  Book Now
@@ -100,7 +100,7 @@ const Navigation = () => {
                   <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20Z" fill="currentColor" fillOpacity="0.2"/>
                   <path d="M15 12C15 14.7614 12.7614 17 10 17C7.23858 17 5 14.7614 5 12C5 9.23858 7.23858 7 10 7C12.7614 7 15 9.23858 15 12Z" fill="currentColor"/>
                 </svg>
-                <span className="font-serif text-2xl font-medium text-plum">Bodycia's</span>
+                <span className="font-serif text-2xl font-medium text-plum">Pinklime</span>
              </div>
              <button 
               onClick={() => setIsMenuOpen(false)}
@@ -126,7 +126,7 @@ const Navigation = () => {
                <button 
                   onClick={() => {
                     setIsMenuOpen(false);
-                    window.open('https://calendly.com/bodycias-beauty', '_blank');
+                    window.open('https://calendly.com/pinklime-nails', '_blank');
                   }}
                   className="text-4xl font-serif text-mauve text-center italic mt-6 flex items-center gap-2"
                 >
@@ -138,14 +138,14 @@ const Navigation = () => {
 
         {/* Footer Info */}
         <div className="p-8 border-t border-plum/10 bg-plum/5 space-y-6">
-          <a href="tel:+233552527502" className="flex items-center justify-center gap-3 text-plum hover:text-mauve transition-colors">
+          <a href="tel:+233502521811" className="flex items-center justify-center gap-3 text-plum hover:text-mauve transition-colors">
             <Phone size={18} />
-            <span className="font-medium text-lg">+233 55 252 7502</span>
+            <span className="font-medium text-lg">+233 50 252 1811</span>
           </a>
           
           <div className="flex items-center justify-center gap-3 text-plum">
             <MapPin size={18} />
-            <span className="font-medium text-lg">Pinanko Rd, Kumasi</span>
+            <span className="font-medium text-lg">JR85+X53, Osu Badu Ave, Accra</span>
           </div>
         </div>
       </div>
